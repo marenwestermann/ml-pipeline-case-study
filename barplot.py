@@ -16,4 +16,4 @@ def plot_barplot(categories, survivors, title, xlabel):
 	ax.bar(categories,survivors)
 	# annotate barplot
 	for i, data in enumerate(survivors):
-		ax.annotate(data, (i-0.07, data-10))
+		ax.annotate(data, (i, data-10), ha="center")
